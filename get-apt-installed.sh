@@ -1,3 +1,3 @@
 #!/bin/bash
 
-apt --list installed >> /tmp/apt-installed
+apt list installed >> /tmp/apt-installed
