@@ -1,7 +1,7 @@
 #!/bin/bash
 
-pip list >> ./pip-installed
-if grep -Fxq "$1" ./pip-installed
+pip list >> /tmp/pip-installed
+if grep -Fxq "$1" /tmp/pip-installed
 then
     echo "true"
 else
